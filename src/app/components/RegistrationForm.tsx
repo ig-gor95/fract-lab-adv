@@ -27,7 +27,7 @@ export function RegistrationForm() {
 
     // Отправка в Яндекс.Метрику (если подключена)
     if (typeof window !== 'undefined' && (window as any).ym) {
-      (window as any).ym(12345678, 'reachGoal', 'registration_submit', {
+      (window as any).ym(108252817, 'reachGoal', 'registration_submit', {
         name: data.name,
         telegram: data.telegram,
         offers: data.offers.join(', '),

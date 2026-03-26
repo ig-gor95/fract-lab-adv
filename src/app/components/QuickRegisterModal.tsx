@@ -37,7 +37,7 @@ export function QuickRegisterModal({ isOpen, onClose, preselectedOffer }: QuickR
 
     // Отправка в Яндекс.Метрику
     if (typeof window !== 'undefined' && (window as any).ym) {
-      (window as any).ym(12345678, 'reachGoal', 'quick_registration', {
+      (window as any).ym(108252817, 'reachGoal', 'quick_registration', {
         name: data.name,
         contact: data.contact,
         contactMethod: data.contactMethod,
